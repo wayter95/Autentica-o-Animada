@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+#page-login {
+    height: 100vh;
+    width: 100vw;
+    background: url('../../assets/bg.jpg') no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#page-login .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+}
