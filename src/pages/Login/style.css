@@ -43,20 +43,50 @@ body {
     height: 45px;
     font-size: 20px;
     color: #FFFFFF;
+    outline: none;
 }
-
+.content form > input::placeholder{
+    color: #FFFFFF;
+}
+.content form > input:focus{
+    border: 3px solid #2f0655;
+    color: #2f0655;
+}
 .content form > button.btn {
     background: #3B0B67;
     mix-blend-mode: normal;
-    border: 3px solid #3B0B67;
+    border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     height: 45px;
     margin-bottom: 30px;
     font-size: 20px;
     color: #FFFFFF;
-    transition: opacity 2s;
+    transition: opacity 0.8s;
 }
 .content form > button:hover{
+    background: #2f0655;
+}
+
+.content form > a {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: opacity 0.8s;
+}
+.content form > a > strong {
+    color: #C51818;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.content form > a:hover {
     opacity: 0.8;
+}
+.content form > label {
+    color: #FFFFFF;
+    font-size: 20px;
+   align-items: center;
+   margin-bottom: 30px;
 }

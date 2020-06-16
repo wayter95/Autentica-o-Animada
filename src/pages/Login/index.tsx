@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import {FiMail} from 'react-icons/fi';
 import logo from '../../assets/logo-login.svg';
 
 const Login = () => {
@@ -11,12 +11,13 @@ const Login = () => {
            <div className="content">
                <form>
                    <input type="email" placeholder="E-mail"/>
+                   <FiMail size="20"/>
                    <input type="password" placeholder="Senha"/>
                    <a href="">Esqueci minha senha</a>
                    <button className="btn">ENTRAR</button>
-                   <label htmlFor="">_____________ ou _____________</label>
+                   <label >_________________________ ou _________________________</label>
                    <button className="btn">FACEBOOK</button>
-                   <a href="">Não tem uma conta? <strong>Resgistre-se</strong></a>
+                   <a href="">Não tem uma conta? <strong>Registre-se</strong></a>
                </form>
            </div>
            </div>
