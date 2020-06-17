@@ -1,8 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import './style.css';
 import { FiMail, FiLock,FiFacebook} from 'react-icons/fi';
 import logo from '../../assets/logo-login.svg';
+
+import './style.css';
 
 const Login = () => {
     return (

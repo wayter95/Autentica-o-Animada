@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    margin: 0;
-}
-button {
-    cursor: pointer;
-}
-body {
-    font: 400 14px Roboto, sans-serif;
+#page-login {
     background: url('../../assets/bg.jpg') no-repeat;
-    -webkit-font-smoothing: antialiased !important;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.container{
+#page-login .container{
     margin: 200px auto 0;
     max-width: 500px;
     width: 100vh;
@@ -20,21 +13,21 @@ body {
     align-items: center;
     
 }
-.content {
+#page-login .content {
     width: 100%;
+    height: 100%;
     margin-top: 50px;
     border-radius: 6px;
     padding: 30px;
     align-items: center;
 }
 
-.content form {
+#page-login .content form {
     display: flex;
     flex-direction: column;
-    
 }
 
-.content form .InputWithIcons > input {
+#page-login .content form .InputWithIcons > input {
     margin-bottom: 30px;
     background: rgba(96, 105, 184, 0.8);
     border: 3px solid #FFFFFF;
@@ -47,20 +40,20 @@ body {
     outline: none;
     width: 75%;
 }
-.content form .InputWithIcons input::placeholder{
+#page-login .content form .InputWithIcons input::placeholder{
     color: #FFFFFF;
 }
-.content form .InputWithIcons input:focus{
+#page-login .content form .InputWithIcons input:focus{
     border: 3px solid #2f0655;
     color: #2f0655;
 }
-.content form .InputWithIcons .icon{
+#page-login .content form .InputWithIcons .icon{
     position: absolute;
     padding-top: 15px;
     padding-left: 20px;
     color: #FFFFFF;
 }
-.content form > button.btn {
+#page-login .content form > button.btn {
     background: #3B0B67;
     mix-blend-mode: normal;
     border: none;
@@ -72,27 +65,27 @@ body {
     color: #FFFFFF;
     transition: opacity 0.8s;
 }
-.content form > button:hover{
+#page-login .content form > button:hover{
     background: #2f0655;
 }
 
-.content form > a {
+#page-login .content form > a {
     color: #FFFFFF;
     font-size: 20px;
     margin-bottom: 20px;
     text-decoration: none;
     transition: opacity 0.8s;
 }
-.content form > a > strong {
+#page-login .content form > a > strong {
     color: #C51818;
     font-size: 20px;
     margin-bottom: 20px;
     text-decoration: none;
 }
-.content form > a:hover {
+#page-login .content form > a:hover {
     opacity: 0.8;
 }
-.content form > label {
+#page-login .content form > label {
     color: #FFFFFF;
     font-size: 20px;
    align-items: center;
