@@ -5,12 +5,13 @@
     -webkit-box-align: center;
     align-items: center;
     min-height: 100vh;
+    -webkit-box-pack: center;
+    justify-content: center;
 }
 #page-login img {
     display: block;
     width: 300px;
-    padding-top: 300px;
-    
+    padding-bottom: 30px;   
 }
 #page-login .content {
     max-width: 500px;
@@ -23,9 +24,6 @@
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    width: 100%;
-    flex: 1 1 0%;
-    padding: 28px 0px 50px;
 }
 
 #page-login .content form {
@@ -101,8 +99,18 @@
     opacity: 0.8;
 }
 #page-login .content form > label {
+    display: flex;
+    flex-direction: row;
     color: #FFFFFF;
+    padding: 5px;
     font-size: 20px;
-   align-items: center;
-   margin-bottom: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#page-login .content form label hr{
+    width: 50%;
+    height: 1px;
+}
+#page-login .content form label p{
+    margin: 5px;
 }

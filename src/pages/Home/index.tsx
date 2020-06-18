@@ -1,8 +1,10 @@
 import React from 'react';
-
+import Header from '../../components/header'
 const Home = () => {
     return (
-        <h1>Hellow Word</h1>
+        <div>
+            <Header/>
+        </div>
     )
 }
 

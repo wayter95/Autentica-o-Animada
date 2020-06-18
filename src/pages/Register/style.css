@@ -1,0 +1,95 @@
+#page-register {
+    background: url('../../assets/bg.jpg') no-repeat;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 100vh;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+#page-register img {
+    display: block;
+    width: 300px;
+    padding-bottom: 30px;   
+}
+#page-register .content {
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#page-register .content form {
+    display: flex;
+    flex-direction: column;
+}
+
+#page-register .content form .InputWithIcons > input {
+    cursor: text;
+    margin-bottom: 30px;
+    background: rgba(96, 105, 184, 0.8);
+    border: 3px solid #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 0 60px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    outline: none;
+    width: 100%;
+}
+#page-register .content form .InputWithIcons input::placeholder{
+    color: #FFFFFF;
+}
+#page-register .content form .InputWithIcons input:focus{
+    border: 3px solid #2f0655;
+    color: #2f0655;
+}
+#page-register .content form .InputWithIcons .icon{
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+#page-register .content form > button.btn {
+    background: #3B0B67;
+    mix-blend-mode: normal;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 45px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: opacity 0.8s;
+}
+#page-register .content form > button:hover{
+    background: #2f0655;
+}
+#page-register .content form > button:disabled{
+    background: rgb(79, 70, 134);
+    cursor: not-allowed;
+}
+#page-register .content form > a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-decoration: none;
+    align-self: flex-start;
+    margin: 8px 0px 18px;
+    transition: opacity 0.2s ease 0s;
+}
+
+#page-register .content form > a:hover {
+    opacity: 0.8;
+}

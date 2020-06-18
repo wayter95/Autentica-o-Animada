@@ -25,7 +25,7 @@ const Login = () => {
                     </div>
                     <Link to="/">Esqueci minha senha</Link>
                     <button className="btn" id="entrar" type="submit">ENTRAR</button>
-                    <label>_________________________ ou _________________________</label>
+                    <label><hr /> <p>ou</p> <hr /></label>
                     <button className="btn" type="button" disabled>
                         <FiFacebook />
                             FACEBOOK</button>
