@@ -5,12 +5,45 @@
 }
 
 #component-menu section{
-    float: left;
     width: 20%;
     height: 100%;
-    left: 0px;
-    top: 0px;
+    position: fixed;
     background: #544664;
+    opacity: 0.9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-size: cover;
+}
+
+#component-menu section h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#component-menu section ul{
+    text-align: start;
+    justify-content: start;
+    list-style-type: none;
+}
+
+#component-menu section ul li{
+    width: auto;
+    margin: 30px 50px 0;
+    color: #fff;
+    justify-content: left;
+    line-height: 1.5em;
+}
+#component-menu section ul li:hover{
+ cursor: pointer;
+ background: #533379;
+}
+
+#component-menu section ul li:focus{
+    background: #533379;
+}
+#component-menu section ul li label{
+    font-size: 30px;
+    margin-left: 20px;
 }

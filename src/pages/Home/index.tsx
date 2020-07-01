@@ -4,8 +4,8 @@ import Menu from '../../components/Menu'
 const Home = () => {
     return (
         <div>
+            <Menu title="Autenticação Animada"/>
             <Header title="Dashboard"/>
-            <Menu title="teste"/>
         </div>
     )
 }

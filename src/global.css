@@ -7,6 +7,9 @@
 button {
     cursor: pointer;
 }
+html, body , #root{
+    height: 100%;
+}
 body {
     display: block;
     font: 400 14px Roboto, sans-serif;
