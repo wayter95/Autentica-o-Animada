@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '../../components/Header'
-import Menu from '../../components/Menu'
+import Template from '../../components/Template'
+
+import './style.css'
 const Home = () => {
     return (
         <div>
-            <Menu title="Autenticação Animada"/>
-            <Header title="Dashboard"/>
+        <Template />
         </div>
     )
 }
