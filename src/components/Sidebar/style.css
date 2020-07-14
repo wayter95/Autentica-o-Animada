@@ -36,7 +36,7 @@
     line-height: 1.5em;
 }
 
-#component-menu section ul li button {
+#component-menu section ul li a {
     border: none;
     background: none;
     cursor: pointer;
@@ -46,11 +46,11 @@
     padding-left: 30px;
 }
 
-#component-menu section ul li button label {
+#component-menu section ul li a label {
     font-size: 30px;
     margin-left: 20px;
 }
 
-#component-menu section ul li button label:hover {
+#component-menu section ul li a label:hover {
     cursor: pointer;
 }

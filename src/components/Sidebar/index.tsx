@@ -1,49 +1,45 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import { MdDashboard } from 'react-icons/md';
 import { FaCashRegister, FaShapes, FaProductHunt, FaClipboardList } from 'react-icons/fa'
 
 import './style.css';
 
-interface MenuProps {
-    title: string;
-    url?: string;
-}
-
-const Menu: React.FC<MenuProps> = (props) => {
+const Menu: React.FC = () => {
     return (
         <div id="component-menu">
             <section>
-                <h1>{props.title}</h1>
+                <h1>Autenticaão Animada</h1>
                 <ul>
                     <li>
-                        <button>
+                        <Link to="/home">
                             <MdDashboard size={30} />
                             <label>Dashboard</label>
-                        </button>
+                        </Link>
                     </li>
                     <li>
-                        <button>
+                        <Link to="/sales">
                             <FaCashRegister size={30} />
                             <label>Vendas</label>
-                        </button>
+                        </Link>
                     </li>
                     <li>
-                        <button>
+                        <Link to="/categorys">
                             <FaShapes size={30} />
                             <label>Categorias</label>
-                        </button>
+                        </Link>
                     </li>
                     <li>
-                        <button>
+                    <Link to="/products">
                         <FaProductHunt size={30} />
                         <label>Produtos</label>
-                        </button>
+                        </Link>
                     </li>
                     <li>
-                        <button>
+                    <Link to="/reports">
                         <FaClipboardList size={30} />
                         <label>Relatorios</label>
-                        </button>
+                        </Link>
                     </li>
                 </ul>
             </section>

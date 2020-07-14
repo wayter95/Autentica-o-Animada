@@ -3,16 +3,16 @@ import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
 
 import './style.css'
-const Home = () => {
+const Sales = () => {
     return (
         <div>
             <Sidebar />
-            <Header title="Dashboard" />
+            <Header title="Vendas" />
             <div>
-                <h1>Dashboard</h1>
+                <h1>Vendas</h1>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default Sales;
